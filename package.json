@@ -1,0 +1,20 @@
+{
+  "name": "vue.rx",
+  "version": "0.0.0",
+  "description": "vue and rxjs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "haoxins/vue.rx",
+  "keywords": [
+    "vue",
+    "rxjs",
+    "rx"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "author": "haoxin",
+  "license": "MIT"
+}
