@@ -1,20 +1,38 @@
 {
-  "name": "vue.rx",
-  "version": "0.0.0",
+  "name": "vue-duo",
+  "version": "0.1.0",
   "description": "vue and rxjs",
   "main": "lib/index.js",
   "scripts": {
+    "build": "babel lib --out-dir build",
+    "prepublish": "npm run build",
     "test": "mocha"
   },
-  "repository": "haoxins/vue.rx",
+  "repository": "haoxins/vue-duo",
   "keywords": [
-    "vue",
     "rxjs",
+    "vue",
+    "duo",
     "rx"
   ],
   "files": [
+    "build/",
     "lib/"
   ],
   "author": "haoxin",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "clone": "2",
+    "immutability-helper": "2",
+    "rxjs": "5",
+    "uuid": "3",
+    "vue-rx": "2"
+  },
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-core": "6",
+    "babel-plugin-transform-object-rest-spread": "6",
+    "babel-preset-env": "1",
+    "vue": "2"
+  }
 }
