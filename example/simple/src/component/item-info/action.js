@@ -1,5 +1,5 @@
 
-import { createAction } from 'vuerx'
+import { createAction } from 'duo'
 
 import {
   updateItemInfo,

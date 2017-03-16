@@ -1,7 +1,7 @@
 
 <template>
   <main>
-    <item v-for="(item, index) in store.items" :onSwitchItem="onSwitchItem"
+    <item v-for="(item, index) in items" :onSwitchItem="onSwitchItem"
       v-bind:item="item" v-bind:index="index" v-bind:key="item.id"></item>
     <div>
       <input placeholder="title" v-model="title"></input>
@@ -25,9 +25,7 @@ export default {
     title: '',
     price: ''
   },
-  subscriptions: {
-    store
-  },
+  store,
   methods: {
     addItem: async function() {
       await add({

@@ -25,7 +25,7 @@ module.exports = {
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      'vuerx': resolve(__dirname, '../../lib')
+      'duo': resolve(__dirname, '../../lib')
     },
     extensions: ['.js', '.vue']
   },

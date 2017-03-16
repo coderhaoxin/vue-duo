@@ -1,5 +1,5 @@
 
-import { createAction } from 'vuerx'
+import { createAction } from 'duo'
 
 export const add = createAction(function(item) {
   return item

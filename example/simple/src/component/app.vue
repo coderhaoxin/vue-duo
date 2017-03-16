@@ -3,13 +3,13 @@
   <content>
     <h1>hello</h1>
     <item-list></item-list>
-    <item-info :id="store.currentItemId"></item-info>
+    <item-info :id="currentItemId"></item-info>
   </content>
 </template>
 
 <script>
 
-import { connect } from 'vuerx'
+import { connect } from 'duo'
 
 import ItemInfo from './item-info'
 import ItemList from './item-list'
@@ -25,9 +25,7 @@ export default {
   props: {
     currentItemId: Number
   },
-  subscriptions: {
-    store
-  }
+  store
 }
 
 </script>

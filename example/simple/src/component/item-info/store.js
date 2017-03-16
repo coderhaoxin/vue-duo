@@ -1,5 +1,5 @@
 
-import { createStore } from 'vuerx'
+import { createStore } from 'duo'
 
 import {
   getInfo,

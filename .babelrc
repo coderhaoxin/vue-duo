@@ -7,7 +7,10 @@
         "firefox": 52,
         "chrome": 57,
         "edge": 15
-      }
+      },
+      "exclude": [
+        "transform-regenerator"
+      ]
     }]
   ]
 }

@@ -1,11 +1,9 @@
 
 import App from './component/app'
-
-import VueRx from 'vue-rx'
-import Rx from 'rxjs/Rx'
+import Duo from 'duo'
 import Vue from 'vue'
 
-Vue.use(VueRx, Rx)
+Vue.use(Duo)
 
 new Vue({
   el: '#app',

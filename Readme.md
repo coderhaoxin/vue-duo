@@ -1,7 +1,9 @@
 
 ### vue-duo
 
-* Use vue with tiny store, based on [vuejs/vue-rx](https://github.com/vuejs/vue-rx) !
+* Use vue with tiny store !
+
+* [example](example)
 
 ### License
 MIT

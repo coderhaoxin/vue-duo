@@ -1,7 +1,7 @@
 
 <template>
   <main>
-    <div>{{ store.info.desc }}</div>
+    <div>{{ info.desc }}</div>
     <div>
       <input v-model.trim="desc"></input>
       <button @click="update()">
@@ -23,9 +23,7 @@ export default {
   data: {
     desc: '',
   },
-  subscriptions: {
-    store
-  },
+  store,
   watch: {
     id: function(id) {
       getInfo(id)
@@ -33,7 +31,7 @@ export default {
   },
   methods: {
     update: async function() {
-      await update(this.store.info.id, {
+      await update(this.info.id, {
         desc: this.desc
       })
 
