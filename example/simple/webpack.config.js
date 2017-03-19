@@ -3,7 +3,7 @@ const { resolve } = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './main.js',
   output: {
     path: resolve(__dirname, './dist'),
     publicPath: '/dist/',
@@ -14,7 +14,10 @@ module.exports = {
       test: /\.vue$/,
       loader: 'vue-loader',
       options: {
-        loaders: {}
+        postcss: [
+          require('postcss-import')(),
+          require('postcss-cssnext')()
+        ]
       }
     }, {
       test: /\.js$/,
