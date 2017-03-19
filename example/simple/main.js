@@ -5,7 +5,6 @@ import Vue from 'vue'
 
 Vue.use(Duo)
 
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+const app = new Vue(App)
+
+app.$mount('#app')

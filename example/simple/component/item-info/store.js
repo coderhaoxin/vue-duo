@@ -17,7 +17,7 @@ store.subscribeActions({
 
   [update]: up => ({
     info: up
-  }),
+  })
 })
 
 export default store

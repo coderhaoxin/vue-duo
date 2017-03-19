@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel lib --out-dir build",
     "prepublish": "npm run build",
+    "lint": "eslint lib example",
     "test": "mocha"
   },
   "repository": "haoxins/vue-duo",
@@ -33,6 +34,12 @@
     "babel-core": "6",
     "babel-plugin-transform-object-rest-spread": "6",
     "babel-preset-env": "1",
+    "eslint-config-ok": "github:haoxins/eslint-config",
     "vue": "2"
+  },
+  "eslintConfig": {
+    "extends": [
+     "ok"
+    ]
   }
 }

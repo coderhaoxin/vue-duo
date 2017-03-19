@@ -20,8 +20,10 @@ export default {
   props: {
     id: String
   },
-  data: {
-    desc: '',
+  data() {
+    return {
+      desc: '',
+    }
   },
   store,
   watch: {

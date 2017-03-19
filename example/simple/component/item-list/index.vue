@@ -21,9 +21,11 @@ export default {
   components: {
     Item
   },
-  data: {
-    title: '',
-    price: ''
+  data() {
+    return {
+      title: '',
+      price: ''
+    }
   },
   store,
   methods: {
