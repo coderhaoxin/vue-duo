@@ -1,8 +1,8 @@
 {
   "name": "vue-duo",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "vue and rxjs",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel lib --out-dir build",
     "prepublish": "npm run build",
