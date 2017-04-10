@@ -1,5 +1,5 @@
 
-import { createStore } from 'duo'
+import { createStore } from 'vue-duo'
 
 import {
   getInfo,

@@ -9,8 +9,6 @@
 
 <script>
 
-import { connect } from 'duo'
-
 import ItemInfo from './item-info'
 import ItemList from './item-list'
 

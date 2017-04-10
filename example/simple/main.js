@@ -1,6 +1,6 @@
 
 import App from './component/app'
-import Duo from 'duo'
+import Duo from 'vue-duo'
 import Vue from 'vue'
 
 Vue.use(Duo)

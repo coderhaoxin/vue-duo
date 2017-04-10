@@ -1,5 +1,5 @@
 
-import { createAction } from 'duo'
+import { createAction } from 'vue-duo'
 
 export const add = createAction(function(item) {
   return item
