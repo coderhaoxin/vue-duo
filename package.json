@@ -26,8 +26,7 @@
     "clone": "2",
     "immutability-helper": "2",
     "rxjs": "5",
-    "uuid": "3",
-    "vue-rx": "2"
+    "uuid": "3"
   },
   "devDependencies": {
     "babel-cli": "6",

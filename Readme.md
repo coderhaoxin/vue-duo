@@ -11,6 +11,68 @@
   - [vuejs/vue-rx](https://github.com/vuejs/vue-rx) is a RxJS binding for Vue.js.
 * `vue-duo` provide a tiny store for simple data flow, works fine with `vue-rx`.
 
+### Getting Started
+
+* `app.vue`
+
+```vue
+
+<template>
+  <div>
+    <h3>{{ count }}</h3>
+    <button @click="add(1)">add</button>
+  </div>
+</template>
+
+<script>
+
+import { add } from './action'
+import store from './store'
+
+export default {
+  name: 'app',
+  store,
+  methods: {
+    add
+  }
+}
+
+</script>
+
+```
+
+* `action.js`
+
+```js
+
+import { createAction } from 'vue-duo'
+
+export const add = createAction((num) => num)
+
+```
+
+* `store.js`
+
+```js
+
+import { createStore } from 'vue-duo'
+
+import { add } from './action'
+
+const store = createStore({
+  count: 0
+})
+
+store.subscribeActions({
+  [add]: (num) => ({
+    count: store.state.count + num
+  })
+})
+
+export default store
+
+```
+
 ### Usage
 
 * [example](example)
