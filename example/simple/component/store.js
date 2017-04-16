@@ -7,8 +7,8 @@ const store = createStore({
   currentItemId: 0
 })
 
-switchItem.subscribe(id => {
-  store.update({
+store.subscribeActions({
+  [switchItem]: (id) => ({
     currentItemId: id
   })
 })

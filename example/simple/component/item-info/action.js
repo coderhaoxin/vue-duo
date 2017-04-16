@@ -6,12 +6,12 @@ import {
   getItemInfo
 } from '../../api/item'
 
-export const update = createAction(async function(id, up) {
+export const update = createAction(async (id, up) => {
   await updateItemInfo(id, up)
   return up
 })
 
-export const getInfo = createAction(async function(id) {
+export const getInfo = createAction(async (id) => {
   const info = await getItemInfo(id)
   return info
 })

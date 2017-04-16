@@ -1,10 +1,10 @@
 
 import { createAction } from 'vue-duo'
 
-export const add = createAction(function(item) {
+export const add = createAction((item) => {
   return item
 })
 
-export const del = createAction(function(id) {
+export const del = createAction((id) => {
   return id
 })

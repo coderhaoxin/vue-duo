@@ -18,7 +18,7 @@ import store from './store'
 
 export default {
   props: {
-    id: String
+    id: Number
   },
   data() {
     return {
