@@ -34,11 +34,12 @@
     "babel-plugin-transform-object-rest-spread": "6",
     "babel-preset-env": "1",
     "eslint-config-ok": "github:haoxins/eslint-config",
+    "mocha": "3",
     "vue": "2"
   },
   "eslintConfig": {
     "extends": [
-     "ok"
+      "ok"
     ]
   }
 }
