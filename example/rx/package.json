@@ -1,0 +1,23 @@
+{
+  "name": "rx-example",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "2",
+    "vue-rx": "3"
+  },
+  "devDependencies": {
+    "babel-core": "6",
+    "babel-loader": "6",
+    "babel-preset-env": "1",
+    "css-loader": "0",
+    "vue-loader": "11",
+    "vue-template-compiler": "2",
+    "webpack": "2",
+    "webpack-dev-server": "2",
+    "webpack-merge": "4"
+  }
+}
