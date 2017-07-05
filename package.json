@@ -1,6 +1,6 @@
 {
   "name": "vue-duo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "vue and rxjs",
   "main": "build/index.js",
   "scripts": {

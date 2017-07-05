@@ -3,10 +3,9 @@
   "presets": [
     ["env", {
       "targets": {
-        "safari": 10.1,
-        "firefox": 52,
-        "chrome": 57,
-        "edge": 15
+        "safari": 10,
+        "chrome": 42,
+        "edge": 14
       },
       "exclude": [
         "transform-regenerator"
