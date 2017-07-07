@@ -11,8 +11,6 @@
 import { Observable } from 'rxjs/Observable'
 import 'rxjs/add/observable/timer'
 
-import { bindStore } from 'vue-duo'
-
 import store from '../store'
 
 export default {

@@ -22,17 +22,17 @@ export default {
   },
   data() {
     return {
-      desc: '',
+      desc: ''
     }
   },
   store,
   watch: {
-    id: function(id) {
+    id(id) {
       getInfo(id)
     }
   },
   methods: {
-    update: async function() {
+    async update() {
       await update(this.info.id, {
         desc: this.desc
       })

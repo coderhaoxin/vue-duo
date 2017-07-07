@@ -1,8 +1,8 @@
 
 <template>
   <main>
-    <item v-for="(item, index) in items" :onSwitchItem="onSwitchItem"
-      v-bind:item="item" v-bind:index="index" v-bind:key="item.id">
+    <item v-for="(item, index) in items" :key="item.id"
+      :item="item" :index="index">
     </item>
     <div>
       <input placeholder="title" v-model="title"></input>

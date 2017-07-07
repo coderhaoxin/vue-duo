@@ -17,10 +17,10 @@ export default {
     item: Object
   },
   methods: {
-    switchItem: function(id) {
+    switchItem(id) {
       switchItem(id)
     },
-    del: function(id) {
+    del(id) {
       del(id)
     }
   }

@@ -2,8 +2,8 @@
 <template>
   <content>
     <h1>hello</h1>
-    <bar />
-    <foo />
+    <bar></bar>
+    <foo></foo>
   </content>
 </template>
 
