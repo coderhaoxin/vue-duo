@@ -24,19 +24,19 @@
   "license": "MIT",
   "dependencies": {
     "clone": "^2.1.1",
-    "immutability-helper": "^2.4.0",
+    "immutability-helper": "^2.5.1",
     "lodash.pick": "^4.4.0",
-    "rxjs": "^5.4.3",
+    "rxjs": "^5.5.2",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "eslint-config-ok": "github:haoxins/eslint-config",
     "mocha": "^4.0.1",
-    "vue": "^2.5.2"
+    "vue": "^2.5.8"
   },
   "eslintConfig": {
     "extends": [
