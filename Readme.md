@@ -5,6 +5,10 @@
 [![License][license-img]][license-url]
 [![Dependency status][david-img]][david-url]
 
+## Deprecated, try movue
+
+* [nighca/movue](https://github.com/nighca/movue)
+
 ### vue-duo
 
 * You can handle complex data flow with awesome `rxjs`.
