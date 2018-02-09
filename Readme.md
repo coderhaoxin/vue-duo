@@ -5,7 +5,7 @@
 [![License][license-img]][license-url]
 [![Dependency status][david-img]][david-url]
 
-## Deprecated, try movue
+# Deprecated, try movue
 
 * [nighca/movue](https://github.com/nighca/movue)
 
